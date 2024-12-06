@@ -1,0 +1,21 @@
+[package]
+name = "grrs"
+version = "0.1.0"
+edition = "2021"
+authors = ["Mantas Gricius <mantasgricius6@email.com>"]
+license = "MIT OR Apache-2.0"
+description = "A tool to search files | My first Rust APP"
+readme = "README.md"
+homepage = "https://github.com/MantasG6/rust-pilot"
+repository = "https://github.com/MantasG6/rust-pilot"
+keywords = ["cli", "search", "demo"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+clap = { version = "4.0.0", features = ["derive"] }
+anyhow = "1.0"
+
+[dev-dependencies]
+assert_cmd = "2.0.14"
+predicates = "3.1.0"
+assert_fs = "1.1.1"
